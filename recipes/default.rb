@@ -27,12 +27,6 @@ node['firewall']['rules'].each do |service, fw_options|
   port_opt = false
   if fw_options['port']
     port_opt = fw_options['port']
-  else
-    log 'Missing Port' do
-      message "Missing port for service: #{service}, skipping..."
-      level :warn
-    end
-    next
   end
 
   protocol_opt = false
