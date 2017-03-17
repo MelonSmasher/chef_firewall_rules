@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7243b3bd-6c60-416a-bbda-b94ae4cb2dad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/firewall_rules.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/attributes/default.rb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/.kitchen.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/Berksfile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/chefignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/data_bags/keys/delivery_builder_keys.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/metadata.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/default.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/deploy.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/functional.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/lint.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/provision.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/publish.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/quality.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/security.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/smoke.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/syntax.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/recipes/unit.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/secrets/fakey-mcfakerton" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/test/fixtures/cookbooks/test/metadata.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/build_cookbook/test/fixtures/cookbooks/test/recipes/default.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/config.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.delivery/project.toml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.kitchen.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/unit/recipes/default_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/smoke/default/default_test.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metadata.rb" afterPath="$PROJECT_DIR$/metadata.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipes/default.rb" afterPath="$PROJECT_DIR$/recipes/default.rb" />
     </list>
@@ -55,8 +21,8 @@
       <file leaf-file-name="default.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recipes/default.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-683">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="-593">
+              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -72,22 +38,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="metadata.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="metadata.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/metadata.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="58" />
+            <state relative-caret-position="105">
+              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="461">
-                <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
+              <first_editor relative-caret-position="341">
+                <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
                 <folding>
                   <marker date="1489771358000" expanded="true" signature="360:432" ph="{&quot;name&quot;: &quot;my_node&quot;...}" />
                   <marker date="1489771358000" expanded="true" signature="396:430" ph="[...]" />
@@ -118,9 +84,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/attributes/default.rb" />
-        <option value="$PROJECT_DIR$/metadata.rb" />
-        <option value="$PROJECT_DIR$/recipes/default.rb" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/recipes/default.rb" />
+        <option value="$PROJECT_DIR$/metadata.rb" />
       </list>
     </option>
   </component>
@@ -372,12 +338,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489767086992</updated>
-      <workItem from="1489767088479" duration="3197000" />
+      <workItem from="1489767088479" duration="3755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3197000" />
+    <option name="totallyTimeSpent" value="3755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
@@ -414,11 +380,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/metadata.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="58" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="341">
+            <caret line="74" column="10" lean-forward="true" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
+            <folding>
+              <marker date="1489771358000" expanded="true" signature="360:432" ph="{&quot;name&quot;: &quot;my_node&quot;...}" />
+              <marker date="1489771358000" expanded="true" signature="396:430" ph="[...]" />
+              <marker date="1489771358000" expanded="true" signature="889:1263" ph="{...}" />
+              <marker date="1489771358000" expanded="true" signature="905:1261" ph="{...}" />
+              <marker date="1489771358000" expanded="true" signature="920:1257" ph="{...}" />
+              <marker date="1489771358000" expanded="true" signature="938:1029" ph="{&quot;port&quot;: 80...}" />
+              <marker date="1489771358000" expanded="true" signature="1048:1140" ph="{&quot;port&quot;: 80...}" />
+              <marker date="1489771358000" expanded="true" signature="1158:1251" ph="{&quot;port&quot;: 5666...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -432,29 +410,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recipes/default.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-683">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="-593">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="461">
-            <caret line="40" column="4" lean-forward="false" selection-start-line="40" selection-start-column="4" selection-end-line="40" selection-end-column="4" />
-            <folding>
-              <marker date="1489771358000" expanded="true" signature="360:432" ph="{&quot;name&quot;: &quot;my_node&quot;...}" />
-              <marker date="1489771358000" expanded="true" signature="396:430" ph="[...]" />
-              <marker date="1489771358000" expanded="true" signature="889:1263" ph="{...}" />
-              <marker date="1489771358000" expanded="true" signature="905:1261" ph="{...}" />
-              <marker date="1489771358000" expanded="true" signature="920:1257" ph="{...}" />
-              <marker date="1489771358000" expanded="true" signature="938:1029" ph="{&quot;port&quot;: 80...}" />
-              <marker date="1489771358000" expanded="true" signature="1048:1140" ph="{&quot;port&quot;: 80...}" />
-              <marker date="1489771358000" expanded="true" signature="1158:1251" ph="{&quot;port&quot;: 5666...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/metadata.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

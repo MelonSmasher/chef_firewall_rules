@@ -16,11 +16,11 @@ def apply_rule (service, port_opt, protocols, command_opt)
 end
 
 
-node['firewall']['rules'].each do |service, options|
+node['firewall']['rules'].each do |service, fw_options|
 
   port_opt = false
-  if options[port]
-    port_opt = options['port']
+  if fw_options['port']
+    port_opt = fw_options['port']
   else
     log 'Missing Port' do
       message "Missing port for service: #{service}, skipping..."
@@ -30,8 +30,8 @@ node['firewall']['rules'].each do |service, options|
   end
 
   protocol_opt = false
-  if options['protocol']
-    protocol_opt = options['protocol']
+  if fw_options['protocol']
+    protocol_opt = fw_options['protocol']
   else
     log 'Missing Protocol' do
       message "Missing protocol for service: #{service}, skipping..."
@@ -41,8 +41,8 @@ node['firewall']['rules'].each do |service, options|
   end
 
   command_opt = false
-  if options['command']
-    command_opt = options['command'].to_s.to_sym
+  if fw_options['command']
+    command_opt = fw_options['command'].to_s.to_sym
   else
     log 'Missing Command' do
       message "Missing command for service: #{service}, skipping..."
