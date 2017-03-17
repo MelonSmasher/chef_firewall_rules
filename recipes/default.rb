@@ -11,13 +11,10 @@ def apply_rule (service, port_opt, protocols, command_opt)
       end
       protocol protocol_opt
       command command_opt
-    end
-  end
-  case node['platform_family']
-    when 'rhel'
-      service 'firewalld' do
-        action :reload
+      if node['platform_family'] == 'rhel'
+        notifies :reload, 'service[firewalld]', :delayed
       end
+    end
   end
 end
 
