@@ -11,9 +11,6 @@ def apply_rule (service_opt, port_opt, protocols, command_opt)
       end
       protocol protocol_opt
       command command_opt
-      if node['platform_family'] == 'rhel'
-        notifies :reload, 'service[firewalld]', :delayed
-      end
     end
   end
 end
