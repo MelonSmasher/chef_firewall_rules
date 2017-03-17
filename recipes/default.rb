@@ -11,6 +11,10 @@ def apply_rule (service, port_opt, protocols, command_opt)
       end
       protocol protocol_opt
       command command_opt
+      case node['platform_family']
+        when 'rhel'
+          notifies :restart, 'service[firewalld]', :delayed
+      end
     end
   end
 end
