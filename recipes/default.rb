@@ -3,9 +3,9 @@
 # Recipe:: default
 #
 
-def apply_rule (service, port_opt, protocols, command_opt)
+def apply_rule (service_opt, port_opt, protocols, command_opt)
   protocols.each do |protocol_opt|
-    firewall_rule service do
+    firewall_rule service_opt do
       if port_opt
         port port_opt
       end
