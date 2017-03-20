@@ -15,6 +15,20 @@ def apply_rule (service_opt, port_opt, protocols, command_opt)
   end
 end
 
+if node['firewall']['allow_vrrp']
+  if node['platform_family'] == 'rhel'
+    firewall_rule 'vrrp' do
+      protocol 112
+      command :allow
+    end
+  elsif node['platform_family'] == 'debian'
+    firewall_rule 'vrrp' do
+      provider    Chef::Provider::FirewallRuleIptables
+      protocol    112
+      command      :allow
+    end
+  end
+end
 
 node['firewall']['rules'].each do |service, fw_options|
 
