@@ -88,3 +88,27 @@ JSON usage:
 }
 ```
 
+
+### Allow VRRP:
+
+Allow the VRRP protocol.
+
+Default Value: 
+
+- `false`
+
+Ruby usage:
+
+```ruby
+node['firewall']['allow_vrrp'] = true
+```
+
+JSON usage:
+
+```json
+{
+  "firewall": {
+    "allow_vrrp": true
+  }
+}
+```
