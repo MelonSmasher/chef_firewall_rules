@@ -3,6 +3,8 @@
 # Recipe:: default
 #
 
+include_recipe 'firewall::default'
+
 def apply_rule (service_opt, port_opt, protocols, command_opt)
   protocols.each do |protocol_opt|
     firewall_rule service_opt do
